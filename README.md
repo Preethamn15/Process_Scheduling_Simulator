@@ -66,12 +66,12 @@ This project is designed to help students learn **Process Control** concepts and
 Process_Scheduling_Simulator/
 │
 ├── main.c # Main menu and program entry
-├── fcfs.c # First Come First Serve scheduling implementation
-├── sjf.c # Shortest Job First scheduling implementation
-├── rr.c # Round Robin scheduling implementation
-├── priority.c # Priority Scheduling implementation
+├── fcfs.c # FCFS scheduling implementation
+├── sjf.c # SJF scheduling implementation
+├── rr.c # Round Robin implementation
+├── priority.c # Priority scheduling implementation
 ├── color.c # Console color functions
-
+├── color.h # Header for color functions
 ---
 
 ## **Compilation & Execution** 
@@ -79,7 +79,9 @@ Process_Scheduling_Simulator/
 2. Compile all files:
    ```bash
    gcc main.c fcfs.c sjf.c rr.c priority.c color.c -o scheduler.exe
-3. Run the program: .\scheduler.exe
+3. Run the program:
+   ```bash
+   .\scheduler.exe
 
 ## Sample Interaction
 +----------------------------------------+
@@ -120,6 +122,7 @@ Author
 Preetham N
 GitHub: https://github.com/Preethamn15
 Email: preethamn2004@gmail.com
+
 
 
 
