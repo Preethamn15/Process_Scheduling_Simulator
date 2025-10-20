@@ -1,10 +1,4 @@
-# Process Scheduling Simulator
-
-![C Programming](https://img.shields.io/badge/Language-C-blue) ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey) ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
-
----
-
-## **Project Overview**
+**Project Overview**
 
 The **Process Scheduling Simulator** is a console-based C program that simulates **CPU scheduling algorithms** used in Operating Systems. It allows users to:
 
@@ -17,7 +11,7 @@ This project is designed to help students learn **Process Control** concepts and
 
 ---
 
-## **Implemented Scheduling Algorithms**
+**Implemented Scheduling Algorithms**
 
 1. **FCFS (First Come First Serve)**
    - Processes are executed in the order they arrive.
@@ -38,7 +32,7 @@ This project is designed to help students learn **Process Control** concepts and
 
 ---
 
-## **Features**
+**Features**
 
 - **Interactive Main Menu**
   - Users can select the scheduling algorithm.
@@ -58,7 +52,7 @@ This project is designed to help students learn **Process Control** concepts and
 
 ---
 
-## **Prerequisites**
+**Prerequisites**
 
 - Windows OS (console program uses Windows API for colors)
 - GCC Compiler (MinGW or similar)
@@ -66,7 +60,7 @@ This project is designed to help students learn **Process Control** concepts and
 
 ---
 
-## **Project Structure**
+**Project Structure**
 Process_Scheduling_Simulator/
 │
 ├── main.c # Main menu and program entry
@@ -80,7 +74,7 @@ Process_Scheduling_Simulator/
 
 ---
 
-## **Compilation & Execution**
+**Compilation & Execution**
 
 1. Open "VS Code" **Command Prompt** or **PowerShell** in project directory.
 2. Compile all files:
@@ -127,3 +121,4 @@ Author
 Preetham N
 GitHub: https://github.com/Preethamn15
 Email: preethamn2004@gmail.com
+
