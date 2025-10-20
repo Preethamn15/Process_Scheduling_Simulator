@@ -72,13 +72,15 @@ Process_Scheduling_Simulator/
 ├── priority.c # Priority Scheduling implementation
 ├── color.c # Console color functions
 
---- **Compilation & Execution** 
+---
+
+## **Compilation & Execution** 
 1. Open "VS Code" **Command Prompt** or **PowerShell** in project directory. 
 2. Compile all files: In Terminal type: 
    1) gcc main.c fcfs.c sjf.c rr.c priority.c color.c -o scheduler.exe 
    2) .\scheduler.exe
 
-
+## Sample Interaction
 +----------------------------------------+
 | 1. FCFS (First Come First Serve)       |
 | 2. SJF (Shortest Job First)            |
@@ -117,3 +119,4 @@ Author
 Preetham N
 GitHub: https://github.com/Preethamn15
 Email: preethamn2004@gmail.com
+
