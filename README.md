@@ -75,10 +75,11 @@ Process_Scheduling_Simulator/
 ---
 
 ## **Compilation & Execution** 
-1. Open "VS Code" **Command Prompt** or **PowerShell** in project directory. 
-2. Compile all files: In Terminal type: 
-   1) gcc main.c fcfs.c sjf.c rr.c priority.c color.c -o scheduler.exe 
-   2) .\scheduler.exe
+1. Open Command Prompt or PowerShell in the project directory.
+2. Compile all files:
+   ```bash
+   gcc main.c fcfs.c sjf.c rr.c priority.c color.c -o scheduler.exe
+3. Run the program: .\scheduler.exe
 
 ## Sample Interaction
 +----------------------------------------+
@@ -119,6 +120,7 @@ Author
 Preetham N
 GitHub: https://github.com/Preethamn15
 Email: preethamn2004@gmail.com
+
 
 
 
