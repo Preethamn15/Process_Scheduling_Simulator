@@ -97,7 +97,7 @@ Enter Arrival Time and Burst Time for P3: 1 4
 
 Gantt Chart:
 | idle |===P2===|==P3==|===P1===|
-Time: 0 1       4       7       12
+Time: 0 1 4 7 12
 
 +-----+--------+-------+---------+------------+
 | PID | Arrival| Burst | Waiting | Turnaround |
@@ -111,8 +111,7 @@ Average Waiting Time = 2.67
 Average Turnaround Time = 6.67
 
 
-
-License
+## License
 
 This project is open source. Feel free to use, modify, or share for educational purposes.
 
@@ -120,5 +119,6 @@ Author
 Preetham N
 GitHub: https://github.com/Preethamn15
 Email: preethamn2004@gmail.com
+
 
 
