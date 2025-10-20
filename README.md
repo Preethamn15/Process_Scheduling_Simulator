@@ -62,16 +62,7 @@ This project is designed to help students learn **Process Control** concepts and
 
 ---
 
-## Project Structure
-Process_Scheduling_Simulator/
-│
-├── main.c # Main menu and program entry
-├── fcfs.c # FCFS scheduling implementation
-├── sjf.c # SJF scheduling implementation
-├── rr.c # Round Robin implementation
-├── priority.c # Priority scheduling implementation
-├── color.c # Console color functions
-├── color.h # Header for color functions
+
 ---
 
 ## **Compilation & Execution** 
@@ -83,35 +74,7 @@ Process_Scheduling_Simulator/
    ```bash
    .\scheduler.exe
 
-## Sample Interaction
-+----------------------------------------+
-| 1. FCFS (First Come First Serve)       |
-| 2. SJF (Shortest Job First)            |
-| 3. Round Robin (RR)                    |
-| 4. Priority Scheduling                 |
-| 5. Exit                                |
-+----------------------------------------+
-Enter your choice: 3
-Enter number of processes: 3
-Enter Time Quantum: 3
-Enter Arrival Time and Burst Time for P1: 2 5
-Enter Arrival Time and Burst Time for P2: 0 3
-Enter Arrival Time and Burst Time for P3: 1 4
 
-Gantt Chart:
-| idle |===P2===|==P3==|===P1===|
-Time: 0 1 4 7 12
-
-+-----+--------+-------+---------+------------+
-| PID | Arrival| Burst | Waiting | Turnaround |
-+-----+--------+-------+---------+------------+
-| P1  | 2      | 5     | 5       | 10         |
-| P2  | 0      | 3     | 0       | 3          |
-| P3  | 1      | 4     | 3       | 7          |
-+-----+--------+-------+---------+------------+
-
-Average Waiting Time = 2.67
-Average Turnaround Time = 6.67
 
 
 ## License
@@ -122,6 +85,7 @@ Author
 Preetham N
 GitHub: https://github.com/Preethamn15
 Email: preethamn2004@gmail.com
+
 
 
 
