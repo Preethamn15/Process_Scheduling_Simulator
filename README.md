@@ -60,13 +60,13 @@ This project is designed to help students learn **Process Control** concepts and
 - **Compiler:** GCC (MinGW or similar)
 - **Knowledge:** Basic understanding of C programming
 
----
+
 
 
 ---
 
 ## **Compilation & Execution** 
-1. Open Command Prompt or PowerShell in the project directory.
+1. Open VS Code or Command Prompt or PowerShell in the project directory.
 2. Compile all files:
    ```bash
    gcc main.c fcfs.c sjf.c rr.c priority.c color.c -o scheduler.exe
@@ -85,6 +85,7 @@ Author
 Preetham N
 GitHub: https://github.com/Preethamn15
 Email: preethamn2004@gmail.com
+
 
 
 
