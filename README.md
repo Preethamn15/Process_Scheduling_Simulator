@@ -111,6 +111,7 @@ Average Waiting Time = 2.67
 Average Turnaround Time = 6.67
 
 
+
 License
 
 This project is open source. Feel free to use, modify, or share for educational purposes.
@@ -119,4 +120,5 @@ Author
 Preetham N
 GitHub: https://github.com/Preethamn15
 Email: preethamn2004@gmail.com
+
 
